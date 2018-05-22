@@ -192,7 +192,7 @@ MUX_2to1 #(.size(32)) Mux_PC_Source3(
 );
 
 /**********************************************
-        no_op and jr is not allow reg_write
+        no_op and jr are not allow reg_write
 **********************************************/
 MUX_2to1 #(.size(1)) Mux_Reg_Write(
         .data0_i(RegWrite1),
