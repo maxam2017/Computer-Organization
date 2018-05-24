@@ -11,7 +11,6 @@ module Decoder(
 	ALUSrc_o,
 	RegDst_o,
 	Branch_o,
-	Branch_o,
 	Jump_o,
 	MemRead_o,
 	MemWrite_o,
