@@ -1,3 +1,8 @@
+`timescale 1ns/1ps
+
+`define CYCLE_TIME 10			
+`define END_COUNT 25
+
 //Subject:     CO project 2 - Test Bench
 //--------------------------------------------------------------------------------
 //Version:     1
@@ -8,10 +13,7 @@
 //----------------------------------------------
 //Description: 
 //--------------------------------------------------------------------------------
-`timescale 1ns/1ps
 
-`define CYCLE_TIME 10			
-`define END_COUNT 25
 module TestBench;
 
 //Internal Signals
